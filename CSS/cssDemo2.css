@@ -1,0 +1,23 @@
+/* div p
+{
+color:blue;
+font-size:20;
+font-weight:bold;
+} */
+/*same parent and p immediately after ul*/
+/* ul + p
+{
+	font-family:arial;
+	font-size:48px;
+	color:red;
+} */
+/*same parent and all p immediately after ul*/
+/* ul ~ p
+{
+	font-family:arial;
+	font-size:48px;
+	color:red;
+} */
+/*all p direct child of div*/
+div>p
+{	color:brown;}

@@ -1,0 +1,25 @@
+/*common margin and border properties*/
+#b1 {
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-left: 50px; */
+     margin:100px 100px 150px 80px; 
+    border-style: dashed;
+}
+#b2 {
+    margin:50px 80px;
+    border-style: groove;
+}
+#b3 {
+    padding:50px 50px;
+    border-style: solid;
+    border-color:chartreuse;
+    border-bottom-right-radius:10px;
+      
+}
+#b4{
+    border-bottom-style:dotted;
+    border-bottom-color:darkcyan;
+
+}

@@ -1,0 +1,32 @@
+ /*margin auto used to center align elements*/
+ table{
+    border: 1px solid black;
+margin:auto;
+}
+/*class selector*/
+.div1{
+  background-color:chartreuse;
+}
+/*class selector*/
+.div2{
+  background-color:aqua;
+}
+/*group selector*/
+.Heading1,#Heading{
+  text-align:center; 
+  font-family:'Gill Sans';
+  font-size:40px;
+  font-stretch:narrower
+}
+/*Id selector*/
+#id1{
+  color:brown
+}
+/*element selector*/
+th{
+  font-size:25px;
+}
+img{
+  height:100px;
+  width:50px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+ <meta charset="utf-8" />
+ <base href="F:\ContentDevelopment\IIHT\HTML-IIHT\HTML\" />
+		<title>
+					HTML5
+        </title>
+	</head>
+
+<body>
+<form>
+<H1>USER REGISTRATION DETAILS<HR/></H1>
+<H3>Please fill the following details and get registered !!</H3><BR/><BR/>
+<label for="t1">Enter Name</label>
+<input autofocus placeholder="FirstName"  type="text" id="t1"/><br/><br/>
+<fieldset>
+<legend>Gender</legend>
+<input type="Radio" name="r1">Male</input>
+<input type="Radio" name="r1">FeMale</input>
+</fieldset><br/><br/>
+<label>Address</label>
+<textarea rows=4 cols=16></textarea>
+<br/>
+<br/>
+Select your favourite Course
+<input list="Course">
+<datalist id="Course">
+<option value="DotNet">
+<option value="JAVA">
+<option value="Python">
+<option value="ORACLE">
+</datalist>
+<br/>
+
+<br/>
+<label>Choose your Graduation</label>
+<br/>
+
+<select name="grad">
+<option>UG</option>
+<option>PG</option>
+<option>Diploma</option>
+<option>PolyTechnic</option>
+</select>
+<br/>
+<label>Choose a College:</label>
+<select>
+    <optgroup label="Arts">
+        <option>StellaMaris</option>
+        <option>Layola</option>
+        <option>DG Vaishnav</option>
+    </optgroup>
+    <optgroup label="Engineering">
+        <option>VIT</option>
+        <option>SRM</option>
+        <option>Ashoka</option>
+    </optgroup>
+</select>
+<br/>
+<br/>
+Enter marks<input type="number" min="0" max="100" required />
+<br/><br/>
+Enter ID<input type="text" pattern="[0-9a-zA-Z]{2,}" />
+<br/><br/>
+Enter Password<input  placeholder="Password" type="Password"/>
+<br/><br/>
+Enter Email<input  placeholder="Email" type="date"/>
+<br/>
+<input type="submit" value="Ok"/>
+</form>
+</body>
+
+</html>
+
